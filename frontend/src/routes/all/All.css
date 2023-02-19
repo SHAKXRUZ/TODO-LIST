@@ -1,0 +1,29 @@
+.all {
+    max-width: 1400px;
+    padding: 30px 20px;
+    margin: 0 auto;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.all_task {
+    padding: 0px 30px;
+    overflow-y: auto;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.tasks {
+    width: 100%;
+    background-color: rgb(216, 211, 211);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.form_checkbox {
+    cursor: pointer;
+}
