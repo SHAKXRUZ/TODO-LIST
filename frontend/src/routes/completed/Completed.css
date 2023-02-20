@@ -13,3 +13,13 @@
     flex-direction: column;
     gap: 10px;
 }
+
+.completed_task::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+.completed_task::-webkit-scrollbar-thumb {
+    background-color: dodgerblue;
+    border-radius: 20px;
+}
