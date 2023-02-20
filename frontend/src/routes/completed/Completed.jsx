@@ -1,7 +1,8 @@
 import "./Completed.css";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 
 const Completed = () => {
+  const set = useRef();
   const [data, setCourses] = useState([]);
   useEffect(() => {
     fetch("http://localhost:3000/data")
@@ -13,7 +14,7 @@ const Completed = () => {
       <div className="all_task">
         {data.map((el, inx) => (
           <div key={inx} className="tasks">
-            <input className="form_checkbox" type="checkbox" />
+            <input ref={set} className="form_checkbox" type="checkbox" />
             <p className="data_text">{el.text}</p>
           </div>
         ))}
