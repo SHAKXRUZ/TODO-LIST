@@ -1,0 +1,15 @@
+.completed {
+    max-width: 1400px;
+    padding: 30px 20px;
+    margin: 0 auto;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.completed_task {
+    padding: 0px 30px;
+    overflow-y: auto;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

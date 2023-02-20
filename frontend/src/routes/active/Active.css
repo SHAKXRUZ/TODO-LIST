@@ -14,6 +14,16 @@
     gap: 10px;
 }
 
+.active_task::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+.active_task::-webkit-scrollbar-thumb {
+    background-color: dodgerblue;
+    border-radius: 20px;
+}
+
 .tasks {
     width: 100%;
     background-color: rgb(216, 211, 211);
