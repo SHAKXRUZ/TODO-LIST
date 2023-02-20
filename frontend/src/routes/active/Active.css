@@ -18,7 +18,6 @@
     width: 10px;
 }
 
-
 .active_task::-webkit-scrollbar-thumb {
     background-color: dodgerblue;
     border-radius: 20px;
